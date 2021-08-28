@@ -71,4 +71,3 @@ const nestedArray = [1, [2], [[3]], [[[4]]]]; // use this to test 'flatten'
     // Hint: You can solve this using recursion.<br>
     // Example: flatten([1, [2], [3, [[4]]]]); => [1, 2, 3, 4];<br>
   }
-# JS-Drills-Higher-Order-Functions

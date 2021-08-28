@@ -9,6 +9,7 @@ let f1=function reduce(elements, cb, startingValue) {
    return resReduce;
 } 
 
+
 //function to add all elements from left to right.....
 let f2=function callback(elem,startingV)
 {

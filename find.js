@@ -10,6 +10,7 @@ let f1=function find(elements, cb) {
 // in the provided array that satisfies the provided testing function. 
 //If no values satisfy the testing function, undefined is returned
 
+
 let f2=function callback(elem)
 {
     let count=0;

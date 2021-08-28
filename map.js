@@ -20,6 +20,7 @@ let f2=function callbackmap(elem)
     return res;
 }
 
+
 module.exports = {
   f1:f1,
   f2:f2};

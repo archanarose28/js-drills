@@ -10,6 +10,7 @@ return resFiter;
 let f2=function callback(elem)
 {
  let  res=[];
+ 
  for (let k = 0; k < elem.length; k++) 
       {
         if(elem[k]%2==0)  //find if every element is even

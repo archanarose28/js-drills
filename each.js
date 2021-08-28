@@ -11,6 +11,7 @@ console.log("function each entered")
 
 } //2
 
+
 let f2=function callback(elem)
 {
   console.log("entered the callback")
