@@ -6,7 +6,6 @@ function flatten(elements) {
   for (let i = 0; i < elements.length; i++) {
     if (Array.isArray(elements[i])) {
       flatenarray = flatenarray.concat(flatten(elements[i]));
-      
     } else {
       flatenarray.push(elements[i]);
     }
@@ -14,8 +13,6 @@ function flatten(elements) {
   return flatenarray;
 }
 
-
-//f1(nestedArray);  //calling function
 module.exports = {
-  f1:flatten};
- 
+  f1: flatten,
+};

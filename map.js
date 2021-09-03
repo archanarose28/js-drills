@@ -11,13 +11,8 @@ res[i]=cb(elements[i]);
 }
 return res;
 }
-//callback function
-function callbackmap(elem)
-{
-    return elem*2;  
-}
+
 module.exports = {
-  f1:map,
-  f2:callbackmap};
+  f1:map,};
  
  

@@ -14,15 +14,8 @@ function find(elements, cb) {
 //The find() method returns the value of the first element
 // in the provided array that satisfies the provided testing function. 
 //If no values satisfy the testing function, undefined is returned
-function callback(elem)
-{
-      if(elem%2==0)  //find if every element is even
-            {
-                return true;
-            } 
-}
+
 module.exports = {
-    f1:find,
-    f2:callback};
+    f1:find,};
    
    

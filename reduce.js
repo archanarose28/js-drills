@@ -6,16 +6,12 @@ function reduce(elements, cb, startingValue) {
   // `startingValue` is the starting value.
   // If `startingValue` is undefined then make `elements[0]` the initial value.
   for (let k = 1; k < elements.length; k++) {
-    resReduce = cb(elements[k], startingValue); //at each step adding the current array value to the result from the previous step
+    resReduce = cb(startingValue,elements[k]); //at each step adding the current array value to the result from the previous step
     startingValue = resReduce;
   }
   return resReduce;
 }
-//function to add all elements from left to right.....
-function callback(elem, startingV) {
-  return elem + startingV;
-}
+
 module.exports = {
   f1: reduce,
-  f2: callback,
 };
